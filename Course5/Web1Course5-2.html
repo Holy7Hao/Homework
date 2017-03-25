@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web1Course5-2</title>
+		<style type="text/css">
+			table{
+				width: 100%;
+				border-spacing: 0px;
+			}
+			#one{
+				padding-left: 15px;
+			}
+			#two{
+				width: 10%;
+				padding-left: 50px;
+			}
+			#three{
+				padding-left: 35px;
+			}
+			.one{
+				padding-left: 15px;
+			}
+			.center{
+				text-align: center;
+			}
+			.right{
+				float: right;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="1px" cellpadding="5px">
+			<caption><h2>健康检查登记表</h2></caption>
+			<caption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;体检时间&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年&nbsp;&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;体检编号（20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</caption>
+			<!--First Line-->
+			<tr>
+				<td class="center">
+					姓名
+				</td>
+				<td width="2%" colspan="2">&nbsp;</td>
+				<td class="center" width="4%">
+					性别
+				</td>
+				<td width="5%">&nbsp;</td>
+				<td class="center">
+					年龄
+				</td>
+				<td width="5%">&nbsp;</td>
+				<td class="center" width="5%">
+					婚否
+				</td>
+				<td width="7%">&nbsp;</td>
+				<td class="center" width="5%">
+					籍贯
+				</td>
+				<td width="9%">&nbsp;</td>
+				<td rowspan="5" id="two">
+					<br>
+					照
+					<br>
+					<br>
+					片
+				</td>
+			</tr>
+			<!--Second Line-->
+			<tr>
+				<td>
+					住址
+				</td>
+				<td colspan="4">&nbsp;</td>
+				<td width="10%" class="center">
+					所属单位
+				</td>
+				<td colspan="5">&nbsp;</td>
+			</tr>
+			<!--Third Line-->
+			<tr>
+				<td colspan="5">
+					既往病史及家族史
+				</td>
+				<td colspan="6">
+					家庭地址
+				</td>
+			</tr>
+			<!--Forth Line-->
+			<tr>
+				<td colspan="11">
+					身份证号
+				</td>
+			</tr>
+			<!--Fifth-->
+			<tr>
+				<td rowspan="19" width="7%" id="one">
+					<h2>体格检查</h2>
+				</td>
+				<td colspan="10">
+					既往病史
+				</td>
+			</tr>
+			<!--6-->
+			<tr>
+				<td rowspan="9" width="2%">
+					<h3>内<br><br>科</h3>
+				</td>
+				<td colspan="2">
+					身高
+					<div class="right">cm</div>
+				</td>
+				<td colspan="2">
+					体重
+					<div class="right">kg</div>
+				</td>
+				<td colspan="2" width="50%">
+					心率
+					<div class="right">次/分</div>
+				</td>
+				<td colspan="4">
+					血压
+					<div class="right">mmHg</div>
+				</td>
+			</tr>
+			<!--I Forgot-->
+			<tr>
+				<td>
+					发育
+				</td>
+				<td colspan="3">&nbsp;</td>
+				<td>
+					营养
+				</td>
+				<td colspan="5">&nbsp;</td>
+			</tr>
+			<!--7-->
+			<tr>
+				<td colspan="10" width="80%">
+					头颅部&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;甲状腺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;淋巴腺
+				</td>
+			</tr>
+			<!--8-->
+			<tr>
+				<td width="10%">
+					胸部
+				</td>
+				<td colspan="9">&nbsp;</td>
+			</tr>
+			<!--9-->
+			<tr>
+				<td colspan="2">
+					心脏、血管
+				</td>
+				<td colspan="6">&nbsp;</td>
+				<td rowspan="5" colspan="2">
+					医生意见：
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					签名：
+				</td>
+			</tr>
+			<!--10-->
+			<tr>
+				<td colspan="2">
+					肺
+				</td>
+				<td colspan="6">&nbsp;</td>
+			</tr>
+			<!--11-->
+			<tr>
+				<td colspan="2">
+					腹部
+				</td>
+				<td colspan="6">
+					肝脏
+				</td>
+			</tr>
+			<!--12-->
+			<tr>
+				<td colspan="2">
+					神经系统
+				</td>
+				<td colspan="6">&nbsp;</td>
+			</tr>
+			<!--13-->
+			<tr>
+				<td colspan="2">
+					其它
+				</td>
+				<td colspan="6">&nbsp;</td>
+			</tr>
+			<!--14-->
+			<tr>
+				<td rowspan="5">
+					<h3>五<br><br>官<br><br>科</h3>
+				</td>
+				<td colspan="2" rowspan="2" class="center">
+					视
+					<br>
+					力
+				</td>
+				<td class="one">
+					裸<br>视
+				</td>
+				<td colspan="2">
+					左
+					<br>
+					右
+				</td>
+				<td class="center">
+					沙<br>眼
+				</td>
+				<td colspan="2">&nbsp;</td>
+				<td rowspan="5" colspan="2">
+					医师意见：
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					签名：
+				</td>
+			<!--15-->
+			<tr>
+				<td class="one">
+					矫<br>正<br>视<br>力
+				</td>
+				<td colspan="2">
+					左
+					<br>
+					<br>
+					右
+				</td>
+				<td class="center">
+					辨<br>分<br>力
+				</td>
+				<td colspan="2" class="center">
+					正常
+					<br>
+					色音
+					<br>
+					色弱
+				</td>
+			</tr>
+			</tr>
+			<!--16-->
+			<tr>
+				<td colspan="2" class="center">
+					耳
+				</td>
+				<td class="one">
+					听<br>力
+				</td>
+				<td colspan="2">
+					左
+					<br>
+					右
+				</td>
+				<td class="center">
+					耳<br>疾
+				</td>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<!--17-->
+			<tr>
+				<td colspan="2" class="center">
+					鼻
+				</td>
+				<td colspan="2">&nbsp;</td>
+				<td>
+					喉
+				</td>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<!--18-->
+			<tr>
+				<td colspan="2" class="center">
+					口腔
+				</td>
+				<td colspan="2">&nbsp;</td>
+				<td>
+					齿
+				</td>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<!--19-->
+			<tr>
+				<td rowspan="4">
+					<h3>外<br><br>科</h3>
+				</td>
+				<td colspan="2">
+					脊柱和四肢
+				</td>
+				<td colspan="6">&nbsp;</td>
+				<td rowspan="4" colspan="2">
+					医师意见：
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					签名：
+				</td>
+			</tr>
+			<!--20-->
+			<tr>
+				<td colspan="2" width="20%">
+					肛门和外生殖器
+				</td>
+				<td colspan="6">&nbsp;</td>
+			</tr>
+			<!--21-->
+			<tr>
+				<td colspan="2">
+					皮肤疾患
+				</td>
+				<td colspan="6">&nbsp;</td>
+			</tr>
+			<!--22-->
+			<tr>
+				<td colspan="2">
+					其它
+				</td>
+				<td colspan="6">&nbsp;</td>
+			</tr>
+			<!--23-->
+			<tr>
+				<td id="three">
+					实<br>验<br>室<br>检<br>查
+				</td>
+				<td colspan="11">&nbsp;</td>
+			</tr>
+		</table>
+	</body>
+</html>
