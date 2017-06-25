@@ -1,0 +1,90 @@
+#crumbs ul li {
+	float: left;
+	list-style: none;
+}
+
+#crumbs ul li a {
+	display: block;
+	float: left;
+	height: 35px;
+	background: #cfcfcf;
+	text-align: center;
+	padding: 10px 20px 0 45px;
+	position: relative;
+	margin: 0 1px 0 0;
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#crumbs ul li a:after {
+	content: "";
+	border-top: 22px solid transparent;
+	border-bottom: 22px solid transparent;
+	border-left: 22px solid #cfcfcf;
+	position: absolute; right: -22px; top: 0;
+	z-index: 1;
+}
+
+#crumbs ul li a:before {
+	content: "";
+	border-top: 22px solid transparent;
+	border-bottom: 22px solid transparent;
+	border-left: 22px solid #fff;
+	position: absolute; left: 0; top: 0;
+}
+
+#crumbs ul li:first-child a {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 40px;
+}
+
+#crumbs ul li:first-child a:before {
+	display: none;
+}
+
+#crumbs ul li:last-child a {
+	padding-right: 30px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#crumbs ul li:last-child a:after {
+	display: none;
+}
+
+#crumbs ul li a:hover {
+	background: #cfcfcf;
+	transition: all 0.2s ease;
+}
+
+#crumbs ul li a:hover:after {
+	border-left-color: #cfcfcf;
+	transition: all 0.2s ease;
+}
+
+h1{
+	font-size: 20px;
+}
+
+p a{
+	text-decoration: underline;
+}
+
+.left{
+	width: 70%;
+}
+
+.right{
+	width:30%;
+}
+
+.content-left img{
+	width:100%;
+}
+
+.content-left{
+	margin-top: 20px;
+	margin-left: 20px;
+}
